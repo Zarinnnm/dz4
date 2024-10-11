@@ -1,0 +1,37 @@
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+.two_children{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+.traffic-light{
+    width: 100px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.light{
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.red-light.active{
+    background-color: red;
+}
+
+.green-light.active{
+    background-color: green;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
